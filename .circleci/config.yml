@@ -9,4 +9,5 @@ workflows:
       - maven/parallel_test: # checkout, build, test, and upload test result
           app_src_directory: java
           test_results_path: /home/circleci/project/java/target/surefire-reports
-          parallelism  : 3
+          test_directory: src/test/java/io/ponicode/javademo 
+          parallelism: 3
