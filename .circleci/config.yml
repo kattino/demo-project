@@ -17,5 +17,5 @@ workflows:
           app_src_directory: java
           test_results_path: /home/circleci/project/java/target/surefire-reports
           parallelism: 3
-
+          test_directory: java/src/test/java
 
